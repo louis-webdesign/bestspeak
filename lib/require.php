@@ -1,7 +1,7 @@
 <?php
 session_start();
 try{
-	$PDO = new PDO('mysql:host=localhost;dbname=tfs1','root',''); 
+	$PDO = new PDO('mysql:host=localhost;dbname=bs1','root',''); 
 }catch(PDOException $e){
 	echo 'Connexion impossible';
 }
